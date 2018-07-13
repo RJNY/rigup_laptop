@@ -66,11 +66,13 @@ Unix tools:
 
 * [Git] for version control
 
-[Hub]: http://hub.github.com/
+[Git]: https://git-scm.com/
 
 GitHub tools:
 
 * [Hub] for interacting with the GitHub API
+
+[Hub]: http://hub.github.com/
 
 Heroku tools:
 
