@@ -5,6 +5,24 @@
 ruby_version="2.3.3"
 node_version="8.9"
 npm_version="5.6"
+rhino="
+                                   ,-.             __
+                                 ,\'   \`---.___.---\'  \`.
+                               ,\'   ,-                 \`-._
+                             ,\'    /                       \\
+                     \'\\   ,\\/     /                         \\\\
+                      )\`._)>)     |                          \\\\
+                      \`>,\'    _   \\                  /       ||
+                        )      \\   |   |            |        |\\\\
+               .   ,   /        \\  |    \`.          |        | ))
+               \\\`. \\\`-\'          )-|      \`.        |        /((
+                \\ \`-\`   .\`     _/  \\ _     )\`-.___.--\\      /  \`\'
+                 \`._         ,\'     \`j\`.__/           \`.    \\
+  Hi there.        / ,    ,\'         \\   /\`             \\   /
+                   \\__   /           _) (               _) (
+                     \`--\'           /____\\             /____\\
+
+"
 
 fancy_echo() {
   local fmt="$1"; shift
@@ -70,6 +88,7 @@ else
 fi
 
 # Begin Installation
+fancy_echo "$rhino"
 fancy_echo "Hello and welcome to RigUp's laptop installer!"
 
 if type xcode-select >&- && xpath=$( xcode-select --print-path ) && test -d "${xpath}" && test -x "${xpath}" ; then
