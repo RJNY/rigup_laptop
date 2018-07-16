@@ -12,8 +12,8 @@ Contents
 - [Requirements](#requirements)
 - [Install](#install)
 - [What it sets up](#what-it-sets-up)
-- [Debugging](#debugging)
 - [RigUp Stack & Versions](#rigup-stack--versions)
+- [Debugging](#debugging)
 
 Requirements
 ------------
@@ -59,7 +59,7 @@ The entire script typically takes less than 10 minutes to install (depends on yo
 
 #### macOS tools:
 
-* [Homebrew] for managing operating system libraries.
+* [Homebrew] for managing operating system libraries. 🍺
 
 [Homebrew]: http://brew.sh/
 
@@ -86,30 +86,25 @@ The entire script typically takes less than 10 minutes to install (depends on yo
 * [Bundler] for managing Ruby libraries
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
 * [n] for node version management
+* [rbenv] for ruby version management
 * [Ruby] stable for writing general-purpose code
 * [Elasticsearch] for RESTful search and analytics
+  * [Java8] dependency for Elasticsearch.
 
 [Bundler]: http://bundler.io/
 [Node.js]: http://nodejs.org/
 [n]: https://github.com/tj/n
+[rbenv]: https://github.com/rbenv/rbenv
 [NPM]: https://www.npmjs.org/
 [Ruby]: https://www.ruby-lang.org/en/
 [Elasticsearch]: https://www.elastic.co/
+[Java8]: https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html
 
 #### Databases:
 
 * [Postgres] for storing relational data
 
 [Postgres]: http://www.postgresql.org/
-
-Debugging
----------
-
-Your last Laptop run will be saved to `~/laptop.log`.
-Read through it to see if you can debug the issue yourself.
-If not, copy the lines where the script failed into a
-[new GitHub Issue](https://github.com/rjny/rigup_laptop/issues/new) for us.
-Or, attach the whole log file as an attachment.
 
 RigUp Stack & Versions
 ---------------
@@ -119,3 +114,12 @@ RigUp Stack & Versions
 - Ruby `2.3.3`
 - node `8.9`
 - NPM `5.6`
+
+Debugging
+---------
+
+Your last Laptop run will be saved to `~/laptop.log`.
+Read through it to see if you can debug the issue yourself.
+If not, copy the lines where the script failed into a
+[new GitHub Issue](https://github.com/rjny/rigup_laptop/issues/new) for us.
+Or, attach the whole log file as an attachment.

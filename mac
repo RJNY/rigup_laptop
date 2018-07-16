@@ -90,6 +90,7 @@ fi
 # Begin Installation
 fancy_echo "$rhino"
 fancy_echo "Hello and welcome to RigUp's laptop installer!"
+fancy_echo "You may be prompted for a password if sudo is necessary"
 
 if type xcode-select >&- && xpath=$( xcode-select --print-path ) && test -d "${xpath}" && test -x "${xpath}" ; then
   fancy_echo "xcode is already installed, cool beans!"
@@ -116,6 +117,7 @@ if brew list | grep -Fq brew-cask; then
   brew uninstall --force brew-cask
 fi
 
+# syntax for brew bundle can be found here: https://github.com/Homebrew/homebrew-bundle
 fancy_echo "Updating Homebrew formulae ..."
 brew update
 brew bundle --file=- <<EOF
@@ -138,6 +140,7 @@ brew "rbenv"
 brew "postgresql@9.6", restart_service: true
 
 # Search & Analytics
+cask 'homebrew/cask-versions/java8'
 brew 'elasticsearch'
 
 EOF
