@@ -1,11 +1,19 @@
-Laptop
+RigUp Laptop
 ======
 
-Laptop is a script to set up an macOS laptop for web and mobile development.
+RigUp Laptop is a script to set up an macOS laptop for web and mobile development.
 
 It can be run multiple times on the same machine safely.
 It installs, upgrades, or skips packages
 based on what is already installed on the machine.
+
+Contents
+--------
+- [Requirements](#requirements)
+- [Install](#install)
+- [What it sets up](#what-it-sets-up)
+- [Debugging](#debugging)
+- [RigUp Stack & Versions](#rigup-stack--versions)
 
 Requirements
 ------------
@@ -43,16 +51,6 @@ Optionally, review the log:
 ```sh
 less ~/laptop.log
 ```
-
-Debugging
----------
-
-Your last Laptop run will be saved to `~/laptop.log`.
-Read through it to see if you can debug the issue yourself.
-If not, copy the lines where the script failed into a
-[new GitHub Issue](https://github.com/rjny/rigup_laptop/issues/new) for us.
-Or, attach the whole log file as an attachment.
-
 
 What it sets up
 ---------------
@@ -103,6 +101,15 @@ The entire script typically takes less than 10 minutes to install (depends on yo
 * [Postgres] for storing relational data
 
 [Postgres]: http://www.postgresql.org/
+
+Debugging
+---------
+
+Your last Laptop run will be saved to `~/laptop.log`.
+Read through it to see if you can debug the issue yourself.
+If not, copy the lines where the script failed into a
+[new GitHub Issue](https://github.com/rjny/rigup_laptop/issues/new) for us.
+Or, attach the whole log file as an attachment.
 
 RigUp Stack & Versions
 ---------------
