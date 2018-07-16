@@ -136,6 +136,10 @@ brew "rbenv"
 
 # Databases
 brew "postgresql@9.6", restart_service: true
+
+# Search & Analytics
+brew 'elasticsearch'
+
 EOF
 
 if ! n --version; then

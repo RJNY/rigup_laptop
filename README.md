@@ -57,51 +57,54 @@ Or, attach the whole log file as an attachment.
 What it sets up
 ---------------
 
-macOS tools:
+The entire script typically takes less than 10 minutes to install (depends on your machine).
+
+#### macOS tools:
 
 * [Homebrew] for managing operating system libraries.
 
 [Homebrew]: http://brew.sh/
 
-Unix tools:
+#### Unix tools:
 
 * [Git] for version control
 
 [Git]: https://git-scm.com/
 
-GitHub tools:
+#### GitHub tools:
 
 * [Hub] for interacting with the GitHub API
 
 [Hub]: http://hub.github.com/
 
-Heroku tools:
+#### Heroku tools:
 
 * [Heroku CLI] and [Parity] for interacting with the Heroku API
 
 [Heroku CLI]: https://devcenter.heroku.com/articles/heroku-cli
 
-Programming languages, package managers, and configuration:
+#### Programming languages, package managers, and configuration:
 
 * [Bundler] for managing Ruby libraries
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
+* [n] for node version management
 * [Ruby] stable for writing general-purpose code
+* [Elasticsearch] for RESTful search and analytics
 
 [Bundler]: http://bundler.io/
 [Node.js]: http://nodejs.org/
 [n]: https://github.com/tj/n
 [NPM]: https://www.npmjs.org/
 [Ruby]: https://www.ruby-lang.org/en/
+[Elasticsearch]: https://www.elastic.co/
 
-Databases:
+#### Databases:
 
 * [Postgres] for storing relational data
 
 [Postgres]: http://www.postgresql.org/
 
-It should take less than 10 minutes to install (depends on your machine).
-
-What's our stack?
+RigUp Stack & Versions
 ---------------
 
 - AngularJS `1.5.8`
