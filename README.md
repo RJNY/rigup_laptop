@@ -53,6 +53,7 @@ If not, copy the lines where the script failed into a
 [new GitHub Issue](https://github.com/rjny/rigup_laptop/issues/new) for us.
 Or, attach the whole log file as an attachment.
 
+
 What it sets up
 ---------------
 
@@ -99,3 +100,12 @@ Databases:
 [Postgres]: http://www.postgresql.org/
 
 It should take less than 10 minutes to install (depends on your machine).
+
+What's our stack?
+---------------
+
+- AngularJS `1.5.8`
+- Ruby on Rails `4.2.5.1`
+- Ruby `2.3.3`
+- node `8.9`
+- NPM `5.6`
